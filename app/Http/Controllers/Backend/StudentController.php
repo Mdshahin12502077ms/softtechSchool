@@ -34,6 +34,7 @@ class StudentController extends Controller
         // ]);
 
         // Create a new student record
+      
         $student = new Student();
         $student->course_id = $request->course_id;
         $student->session_id = $request->session_id;
